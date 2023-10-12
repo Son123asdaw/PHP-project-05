@@ -8,11 +8,11 @@
         font-family: 'Arial', sans-serif; 
         font-size : 18px;
         font-weight : bold;
-       
     }
     h1 {
-        padding-top:30px;
+        padding-top:15px;
         text-align: center;
+
     }
     form {     
         border-radius: 4px;
