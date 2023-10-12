@@ -79,12 +79,13 @@ function getErrorsMessage($key, $errors)
     </div> -->
     <style>
         body {
+            
             background-color: #FCFCFD;
         }
     </style>
 
     <form method='POST' action='<?php htmlentities($_SERVER['PHP_SELF']) ?>'>
-        <h1>SIGN UP</h1>
+        <h1>SIGN UPppppp</h1>
         <div class="edit-form">
             <div class="input">
                 <label>First &last name : </label><br>
