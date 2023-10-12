@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $email = $_POST['fullName'];
     }
     if (empty($_POST['date'])) {
-        $errors['date'] = 'VUi lòng nhập ngày tháng năm sinh!';
+        $errors['date'] = 'Vui lòng nhập ngày tháng năm sinh!';
     } else {
         $email = $_POST['date'];
     }
@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $password = $_POST['password'];
     }
     if (empty($_POST['confirmPass'])) {
-        $errors['confirmPass'] = 'VUi lòng nhập lại mật khẩu!';
+        $errors['confirmPass'] = 'Vui lòng nhập lại mật khẩu!';
     } else {
         $confirmPass = $_POST['confirmPass'];
     }
